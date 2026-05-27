@@ -11,8 +11,10 @@ namespace Parque_diversão
                 .UseMauiApp<App>()
                 .ConfigureFonts(fonts =>
                 {
-                    fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
-                    fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
+                fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
+                fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
+                fonts.AddFont("Caveat-Regular.ttf", "Caveat");
+                fonts.AddFont("Arizonia-Regular.ttf", "Arizonia");
                 });
 
 #if DEBUG

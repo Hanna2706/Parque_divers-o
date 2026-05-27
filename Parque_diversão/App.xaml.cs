@@ -7,6 +7,8 @@ namespace Parque_diversão
         public App()
         {
             InitializeComponent();
+
+            MainPage = new NavigationPage(new Views.Valordosingressos());
         }
 
         protected override Window CreateWindow(IActivationState? activationState)
